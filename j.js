@@ -43,6 +43,8 @@ adminsub.addEventListener('click',()=>{
     if (value==='tayyib2'&& adminpassword==='1122' ) {
         console.log(value);
         alert('ok admin')
+        document.querySelector('#adminlog').style.display='none'
+document.querySelector(body).backgroundColor='red'
     } else {
    alert(' ckeck ADMIN NAME and PASSWORD ')
     }
