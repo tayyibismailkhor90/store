@@ -1,4 +1,5 @@
 let adminname = document.getElementById("myInput");
+let adminlog = document.getElementById("adminlog");
 let USERName = document.getElementById("USER-Name");
 let adminpas = document.getElementById("adminpas");
 let userpas = document.getElementById("userpass");
@@ -42,9 +43,9 @@ adminsub.addEventListener('click',()=>{
 adminsub.addEventListener('click',()=>{
     if (value==='tayyib2'&& adminpassword==='1122' ) {
         console.log(value);
-        alert('ok admin')
-        document.querySelector('#adminlog').style.display='none'
-document.querySelector(body).style.backgroundColor='red'
+        alert('ok admin');
+adminlog.style.display='none';
+        document.querySelector(body).backgroundColor='red'
     } else {
    alert(' ckeck ADMIN NAME and PASSWORD ')
     }
