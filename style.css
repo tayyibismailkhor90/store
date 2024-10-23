@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+   align-items: center;
+    justify-content: center;
+    text-align: center;
+   background-position: center;
+    background-image: url('store_front_d42a53d3-4a46-4579-adbe-80054698f211.webp');
+}
+#choice{
+border-radius: 40px;
+    margin-top: 200px;
+    background-color: aqua;
+   width: 300px;
+ 
+   align-items: center;
+    justify-content: center;
+    text-align: center;
+   height: 300px;
+}
+
+#choice a{
+    color: blue;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+ margin: 20px;
+    width: 200px;
+    height: 100px;
+background-color: chartreuse;
+    align-items: center;
+     justify-content: center;
+     text-align: center;
+ }
+ .btn{
+margin-left: 50px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 40px;
+    width: 200px;
+    height: 50px;
+background-color: chartreuse;
+    align-items: center;
+     justify-content: center;
+     text-align: center;
+ }
+ .dfg{
+
+    padding-top: 40px;
+ }
+ .user{
+    transition: 2s;
+    position: absolute;
+    border-radius: 40px;
+    margin-top: 200px;
+    background-color: aqua;
+   width: 300px;
+ 
+   align-items: center;
+    justify-content: center;
+    text-align: center;
+   height: 300px;
+ }
+.user input{
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 25px;
+   
+    margin-top: 50px;
+    width: 70%;
+    height: 40px;
+background-color: rgb(199, 238, 166);
+    align-items: center;
+     justify-content: center;
+     text-align: center;
+}
+.user input::placeholder{
+    color: rgb(46, 39, 39);
+}
+#usersub{
+    font-size: 25px;
+    color: azure;
+    background-color: darkblue;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+    width: 90%;
+    height: 50px;
+}
+.admin{
+    transition: 2s;
+    position: absolute;
+    border-radius: 40px;
+    margin-top: 200px;
+    background-color: aqua;
+   width: 300px;
+ 
+   align-items: center;
+    justify-content: center;
+    text-align: center;
+   height: 300px;
+}.admin input{
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 25px;
+   
+    margin-top: 50px;
+    width: 70%;
+    height: 40px;
+background-color: rgb(199, 238, 166);
+    align-items: center;
+     justify-content: center;
+     text-align: center;
+}
+
+.displas{
+display: none;
+    margin-top: 300px;
+}
+.logbtn{
+    font-size: 25px;
+    color: azure;
+    background-color: darkblue;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+    width: 90;
+    height: 50px;
+}
+.Log{
+   
+    margin-top: 5px;
+}
+/*fdfdsfsdfsdf*/
+.userproduct{
+
+    width: 2000px;
+    overflow: hidden;
+
+   
+    background-color: aliceblue;
+    height: 900px;
+    border-radius: 40px;
+    margin-top: 200px;
+}
+#fghx{
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+ 
+    width: 500px;
+
+}
+.products{
+    cursor: pointer;
+  position: relative;
+   margin-right: 50px;
+ height: 400px;
+   margin-left: 50px;
+   margin-top: 200px;
+}
+.logo{
+
+color: yellowgreen;
+ background-color: brown;
+
+    height: 80px;
+}
+.Sname{
+    height: 300px;
+    background-color: chocolate;
+    font-size: 65px;
+    margin-top: 15px;
+    max-width: 400px;
+}
