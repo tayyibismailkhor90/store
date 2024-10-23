@@ -45,7 +45,7 @@ adminsub.addEventListener('click',()=>{
         console.log(value);
         alert('ok admin');
 adminlog.style.display='none';
-        document.querySelector(body).backgroundColor='red'
+        document.querySelector(body).style.backgroundColor='red'
     } else {
    alert(' ckeck ADMIN NAME and PASSWORD ')
     }
